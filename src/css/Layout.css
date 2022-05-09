@@ -1,0 +1,49 @@
+:root {
+    --colour1: #FFEBD4;
+    --colour2: #F58727;
+    --colour3: #2A83D1;
+}
+
+body {
+    color: var(--colour1);
+    width: 100%;
+    margin: 0;
+}
+
+.navbar {
+    background-color: var(--colour2);
+}
+
+ul.navbar-links > li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul.navbar-links a {
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+ul.navbar-links a:hover {
+    color: #76DDE4;
+}
+
+nav {
+    display: inline-block;
+    width: 49%;
+}
+
+ul.navbar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr {
+    display: inline-block;
+    width: 49%;
+    border: 1px solid var(--colour1);
+    fill: var(--colour1);
+}

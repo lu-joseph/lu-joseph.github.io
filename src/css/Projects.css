@@ -1,0 +1,13 @@
+.projects-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-list > .entry-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+body {
+    background-color: var(--colour1);
+}
