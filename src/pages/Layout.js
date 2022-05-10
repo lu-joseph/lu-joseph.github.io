@@ -7,10 +7,24 @@ const Layout = () => {
   });
   return (
     <>
-      <div class="navbar">
-        <hr></hr>
-        <nav>
-          <ul class="navbar-links">
+      <nav className="navbar">
+        <div className="name">Joseph Lu</div>
+        <button
+          onClick={() => {
+            console.log("clicked");
+            const navbarLinks =
+              document.getElementsByClassName("navbar-links")[0];
+            navbarLinks.classList.toggle("active");
+          }}
+          href="#"
+          className="toggle-button"
+        >
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </button>
+        <div className="navbar-links">
+          <ul>
             <li>
               <NavLink to="/" exact id="home-link" style={activeNavLinkStyle}>
                 Home
@@ -49,8 +63,8 @@ const Layout = () => {
               </NavLink>
             </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
       <Outlet />
     </>
   );
