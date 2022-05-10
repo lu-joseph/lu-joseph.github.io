@@ -7,33 +7,12 @@ const Layout = () => {
   });
   return (
     <>
-      <div class="navbar">
-        <hr></hr>
-        <nav>
+      <div className="navbar">
+        <div className="line-container">
+          <hr></hr>
+        </div>
+        <div className="navbar-links-container">
           <ul class="navbar-links">
-            <li>
-              <NavLink to="/" exact id="home-link" style={activeNavLinkStyle}>
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/projects"
-                id="projects-link"
-                style={activeNavLinkStyle}
-              >
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/experience"
-                id="experience-link"
-                style={activeNavLinkStyle}
-              >
-                Experience
-              </NavLink>
-            </li>
             <li>
               <NavLink to="/about" id="about-link" style={activeNavLinkStyle}>
                 About
@@ -48,8 +27,31 @@ const Layout = () => {
                 Contact
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/experience"
+                id="experience-link"
+                style={activeNavLinkStyle}
+              >
+                Experience
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/projects"
+                id="projects-link"
+                style={activeNavLinkStyle}
+              >
+                Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/" exact id="home-link" style={activeNavLinkStyle}>
+                Home
+              </NavLink>
+            </li>
           </ul>
-        </nav>
+        </div>
       </div>
       <Outlet />
     </>
