@@ -1,10 +1,11 @@
-import ProjectEntry from "../ProjectEntry";
+import ProjectEntry from "../Components/ProjectEntry";
 import "../css/Projects.css";
 
 const Projects = () => {
   const reset_details = [
     { text: "Health app created for StormHacks 2022" },
-    { text: "Backend written in Python, using Flask and PostgreSQL" },
+    { text: "Worked in a team of three to complete project in 36 hours" },
+    { text: "Wrote backend in Python, using Flask and PostgreSQL" },
   ];
   const jewel_theft_details = [
     { text: "2D top-down stealth game made with Python Tkinter" },
@@ -39,30 +40,35 @@ const Projects = () => {
         title="Reset"
         imgsrc="./images/reset.png"
         imgHeight="500px"
+        Github="https://github.com/lu-joseph/reset"
         details={reset_details}
       />
       <ProjectEntry
         title="Baddie Match"
         imgsrc="./images/baddie-match.png"
         imgHeight="500px"
+        Github=""
         details={baddie_match_details}
       />
       <ProjectEntry
         title="Jewel Theft"
         imgsrc="./images/jewel-theft.png"
         imgHeight="500px"
+        Github="https://github.com/lu-joseph/jewel-theft"
         details={jewel_theft_details}
       />
       <ProjectEntry
         title="Kefuffle Galaxy"
         imgsrc="./images/cellular-automaton.png"
         imgHeight="500px"
+        Github=""
         details={cellular_automaton_details}
       />
       <ProjectEntry
         title="TraffX"
         imgsrc="./images/traffx.png"
         imgHeight="500px"
+        Github=""
         details={traffx_details}
       />
     </div>

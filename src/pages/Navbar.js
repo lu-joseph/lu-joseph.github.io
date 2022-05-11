@@ -1,7 +1,7 @@
 import { Outlet, NavLink } from "react-router-dom";
-import "../css/Layout.css";
+import "../css/Navbar.css";
 
-const Layout = () => {
+const Navbar = () => {
   const activeNavLinkStyle = ({ isActive }) => ({
     color: isActive ? "var(--colour3)" : "var(--colour1)",
   });
@@ -70,4 +70,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default Navbar;

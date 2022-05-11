@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
+import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
@@ -12,7 +12,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
           <Route path="experience" element={<Experience />} />
           <Route path="contact" element={<Contact />} />
@@ -25,5 +25,5 @@ export default function App() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);

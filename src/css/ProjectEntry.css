@@ -79,17 +79,33 @@ body {
     font-size: 30px;
     font-weight: 800;
     color: var(--colour3);
-    text-align: center;
-    /* display: inline-block; */
-    background-color: #ffd485;
-    border-radius: 5px;
+}
+
+.title-container {
     width: 70%;
     margin: 0.7em auto 0 auto;
+    background-color: #ffd485;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.title-container .fa-github {
+    font-size: 2.5em;
+    color: var(--colour3);
+}
+
+.title-container .fa-github:hover {
+    color: var(--colour2);
+}
+
+.title-container .fa-github.invisible {
+    visibility: hidden;
 }
 
 .details {
     color: var(--colour1);
     font-weight: 700;
+    margin-right: 25px;
 }
 
 .details>li {
@@ -116,6 +132,7 @@ body {
     0 6px 20px 0 rgba(70, 124, 177, 0.25);
     width: 50%;
     margin: 2em auto;
+    border-radius: 5px;
 }
 
 /* Increase margins around entry content */
@@ -133,7 +150,7 @@ body {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
     div.entry-card {
         width: 80% !important;
     }
