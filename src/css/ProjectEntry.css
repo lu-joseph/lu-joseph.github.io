@@ -134,10 +134,6 @@ body {
     border-radius: 5px;
 }
 
-.visible-xs {
-    display: none;
-}
-
 /* Increase margins around entry content */
 @media (min-width: 1200px) {
     .details {

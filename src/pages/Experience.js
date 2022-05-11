@@ -1,4 +1,4 @@
-import ExperienceEntry from "../Components/ExperienceEntry";
+import ExperienceEntry from "../components/ExperienceEntry";
 
 const Experience = () => {
   const opentext_details = [

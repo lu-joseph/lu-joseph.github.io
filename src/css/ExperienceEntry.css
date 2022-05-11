@@ -1,5 +1,5 @@
-.details-container {
-    width: 80%;
+.experience-entry .details-container {
+    width: 60%;
     margin: 20px auto;
 }
 
@@ -7,10 +7,20 @@
     overflow: auto;
 }
 
-/* .title-container {
+.job-role {
+    margin-bottom: 10px;
+}
+
+.title-container {
     overflow: auto;
-} */
+}
 
 .company-name {
     margin: 10px 0;
+}
+
+@media (max-width: 400px) {
+    .experience-entry > .details-container {
+        width: 80%;
+    }
 }
