@@ -65,7 +65,6 @@ div.entry-container {
     border-radius: 5px;
     margin: auto;
     position: relative;
-    
     display: flex;
     flex-direction: row;
 }
@@ -135,6 +134,10 @@ body {
     border-radius: 5px;
 }
 
+.visible-xs {
+    display: none;
+}
+
 /* Increase margins around entry content */
 @media (min-width: 1200px) {
     .details {
@@ -181,5 +184,19 @@ body {
 
     .image {
         margin: 0;
+    }
+}
+
+@media (max-width: 616px) {
+    .title-container .fa-github {
+        font-size: 2em;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+
+    .visible-xs {
+        display: block;
     }
 }

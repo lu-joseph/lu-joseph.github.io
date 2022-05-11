@@ -35,7 +35,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div class="projects-list">
+    <div className="projects-list">
       <ProjectEntry
         title="Reset"
         imgsrc="./images/reset.png"

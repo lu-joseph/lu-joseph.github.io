@@ -3,27 +3,29 @@ import "../css/ProjectEntry.css";
 
 const ProjectEntry = (props) => {
   const iconVisibility = props.Github === "" ? " invisible" : "";
-  const githubIconClass = "fa fa-github col-2" + iconVisibility;
+  const githubIconClass = "fa fa-github" + iconVisibility;
   return (
-    <div class="entry-card">
-      <div class="title-container row">
-        <div class="col-2"></div>
-        <div class="title col-8">{props.title}</div>
-        <a href={props.Github}>
-          <i class={githubIconClass}></i>
-        </a>
-      </div>
-
-      <div class="entry-container row">
-        <div class="image-container col-4">
-          <img class="image" src={props.imgsrc} alt="Project"></img>
+    <div className="project-entry">
+      <div className="entry-card">
+        <div className="title-container row">
+          <div className="col-2"></div>
+          <div className="title col-8">{props.title}</div>
+          <a href={props.Github} className="col-2">
+            <i className={githubIconClass}></i>
+          </a>
         </div>
-        <div class="text-container col-8">
-          <ul class="details">
-            {props.details.map((item) => (
-              <ProjectEntryDetail key={item.id} text={item.text} />
-            ))}
-          </ul>
+
+        <div className="entry-container row">
+          <div className="image-container col-4">
+            <img className="image" src={props.imgsrc} alt="Project"></img>
+          </div>
+          <div className="text-container col-8">
+            <ul className="details">
+              {props.details.map((item) => (
+                <ProjectEntryDetail key={item.id} text={item.text} />
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
