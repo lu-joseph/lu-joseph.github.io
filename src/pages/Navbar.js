@@ -8,7 +8,11 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="name">Joseph Lu</div>
+        <div className="name-container">
+          <NavLink to="/" exact id="name-home-link">
+            <div className="name">Joseph Lu</div>
+          </NavLink>
+        </div>
         <button
           onClick={() => {
             console.log("clicked");
