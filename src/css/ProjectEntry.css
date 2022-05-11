@@ -96,10 +96,6 @@ body {
     margin-bottom: 20px;
 }
 
-.text-container {
-    /* width: 40%; */
-}
-
 .image-container {
     width: 40%;
     display: flex;
@@ -133,11 +129,14 @@ body {
     div.entry-card {
         width: 80% !important;
     }
+    .details {
+        font-size: 1.3em;
+    }
 }
 
 @media (max-width: 768px) {
     .details {
-        font-size: 1em;
+        font-size: 1.2em;
     }
     
     .entry-container {
