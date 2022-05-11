@@ -5,7 +5,12 @@
     --colour3: #0045FF;
     /* --colour3: #004684; */
     --colour4: #FFB97B;
+    --small: 575px;
+    --medium: 768px;
+    --large: 992px;
+    --extraLarge: 1200px;
 }
+
 
 body {
     width: 100%;
