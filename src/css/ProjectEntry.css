@@ -86,6 +86,9 @@ body {
     background-color: var(--colour5);
     border-radius: 5px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .title-container .fa-github {
@@ -183,16 +186,27 @@ body {
     }
 }
 
+.remove-padding {
+    padding: 0 !important;
+}
+
 @media (max-width: 616px) {
-    .title-container .fa-github {
+    .project-entry .title {
+        font-size: 1.5em;
+    }
+    /* .title-container .fa-github {
         font-size: 2em;
     }
 
-    .hidden-xs {
-        display: none;
-    }
+    .github-icon-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+}
 
-    .visible-xs {
-        display: block;
+@media (max-width: 458px) {
+    .title-container {
+        width: 90%;
     }
 }
