@@ -86,6 +86,9 @@ body {
     background-color: var(--colour5);
     border-radius: 5px;
     text-align: center;
+}
+
+.project-entry .title-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -131,10 +134,14 @@ body {
 .entry-card {
     background-color: var(--colour2);
     box-shadow: 0 4px 8px 0 rgba(70, 124, 177, 0.25),
-    0 6px 20px 0 rgba(70, 124, 177, 0.25);
+        0 6px 20px 0 rgba(70, 124, 177, 0.25);
     width: 50%;
     margin: 2em auto;
     border-radius: 5px;
+}
+
+.remove-padding {
+    padding: 0 !important;
 }
 
 /* Increase margins around entry content */
@@ -156,6 +163,7 @@ body {
     div.entry-card {
         width: 80% !important;
     }
+
     .details {
         font-size: 1.3em;
     }
@@ -165,7 +173,7 @@ body {
     .details {
         font-size: 1.2em;
     }
-    
+
     .entry-container {
         flex-direction: column !important;
         align-items: center;
@@ -186,23 +194,11 @@ body {
     }
 }
 
-.remove-padding {
-    padding: 0 !important;
-}
 
 @media (max-width: 616px) {
     .project-entry .title {
         font-size: 1.5em;
     }
-    /* .title-container .fa-github {
-        font-size: 2em;
-    }
-
-    .github-icon-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
 }
 
 @media (max-width: 458px) {

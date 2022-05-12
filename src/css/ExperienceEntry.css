@@ -3,12 +3,17 @@
     margin: 20px auto;
 }
 
+.experience-entry .entry-card {
+    width: 40%;
+}
+
 .entry-card {
     overflow: auto;
 }
 
 .job-role {
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .title-container {
