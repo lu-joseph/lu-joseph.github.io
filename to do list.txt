@@ -1,4 +1,6 @@
-add kefuffle and traffx to github
+add kefuffle to github
+add traffx github link to projects page
+add nba playoffs simulation to projects page
 avatar png background
 home page
 about page
