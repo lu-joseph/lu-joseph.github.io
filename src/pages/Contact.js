@@ -9,12 +9,15 @@ const Contact = () => {
         </div>
         <div className="details-container">
           <div className="details">
-            <div className="description">
+            <div className="description first-paragraph">
               I'm currently looking for Fall 2022 internships in Software
-              Development. I specialize in <b>Backend</b> work, but I am
-              developing my <b>Fullstack</b> and <b>Frontend</b> skills as well.
+              Development.
             </div>
-            <div className="description second-paragraph">
+            <div className="description">
+              I specialize in <b>Backend</b> work, but I am developing my{" "}
+              <b>Fullstack</b> and <b>Frontend</b> skills as well.
+            </div>
+            <div className="description">
               Check the{" "}
               <b>
                 <a href="https://josephlu.ca/about" className="about-page-link">

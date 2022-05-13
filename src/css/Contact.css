@@ -53,6 +53,22 @@
     margin: 10px 0;
 }
 
-.contact-entry .description.second-paragraph {
+.contact-entry .description:not(.first-paragraph) {
     margin-top: 10px;
+}
+
+.details {
+    width: 100%;
+}
+
+@media (max-width: 400px) {
+    .contact-entry .email {
+        font-size: 0.8em !important;
+    }
+}
+
+@media (max-width: 330px) {
+    .contact-entry .email {
+        font-size: 0.7em !important;
+    }
 }
