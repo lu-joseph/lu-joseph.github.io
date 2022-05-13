@@ -2,20 +2,26 @@
     margin: 20px;
 }
 
-.contact-entry .links {
+.contact-entry .icons {
     margin-top: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.contact-entry .links a {
+.contact-entry .description {
+    font-weight: 500;
+}
+
+.contact-entry .icons a {
     /* text-decoration: none; */
     color: var(--colour1);
 }
 
-.contact-entry .links a:hover {
+.contact-entry .icons a:hover {
     color: var(--colour3);
 }
 
@@ -29,4 +35,24 @@
 
 .contact-entry .fa {
     font-size: 1.5em;
+}
+
+.contact-entry .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-entry .email-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-entry .email-phone span {
+    margin: 10px 0;
+}
+
+.contact-entry .description.second-paragraph {
+    margin-top: 10px;
 }
