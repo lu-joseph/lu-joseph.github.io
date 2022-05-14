@@ -14,17 +14,7 @@ const Contact = () => {
               Development.
             </div>
             <div className="description">
-              I specialize in <b>Backend</b> work, but I am developing my{" "}
-              <b>Fullstack</b> and <b>Frontend</b> skills as well.
-            </div>
-            <div className="description">
-              Check the{" "}
-              <b>
-                <a href="https://josephlu.ca/about" className="about-page-link">
-                  About
-                </a>{" "}
-              </b>
-              page to see my skills in detail!
+              Feel free to reach out and connect with me!
             </div>
             <div className="contact-info">
               <div className="icons">

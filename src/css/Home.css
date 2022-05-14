@@ -1,0 +1,29 @@
+.home-entry .details-container {
+    /* width: 80%; */
+    /* margin: auto; */
+    margin: 20px;
+    text-align: center;
+}
+
+.home-entry .details {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.home-entry .about-page-link {
+    color: var(--colour1);
+}
+
+.home-entry .about-page-link:hover {
+    color: var(--colour3);
+}
+
+.home-entry .details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.home-entry .description {
+    margin: 0 20px;
+}

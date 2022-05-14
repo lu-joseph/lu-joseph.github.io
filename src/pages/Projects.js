@@ -68,7 +68,7 @@ const Projects = () => {
         title="TraffX"
         imgsrc="./images/traffx.png"
         imgHeight="500px"
-        Github=""
+        Github="https://github.com/lu-joseph/traffx"
         details={traffx_details}
       />
     </div>
