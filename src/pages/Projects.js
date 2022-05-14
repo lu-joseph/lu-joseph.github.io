@@ -4,7 +4,9 @@ import "../css/Projects.css";
 const Projects = () => {
   const reset_details = [
     { text: "Health app created for StormHacks 2022" },
-    { text: "Worked in a team of three to complete project in 36 hours" },
+    {
+      text: "Worked in a team of three members to complete project in 36 hours",
+    },
     { text: "Wrote backend in Python, using Flask and PostgreSQL" },
   ];
   const jewel_theft_details = [
@@ -34,42 +36,50 @@ const Projects = () => {
       text: "Cars are able to drive at differing speeds, switch lanes, react to the cars around them, and crash",
     },
   ];
+  const nba_details = [
+    { text: "Simulation for 5-player NBA games between playoffs teams" },
+    { text: "User controls tournament format and simulation speed" },
+    {
+      text: "Simulations run based on player statistics from 2018-2019 season",
+    },
+  ];
   return (
     <div className="projects-list">
       <ProjectEntry
         title="Reset"
         imgsrc="./images/reset.png"
-        imgHeight="500px"
         Github="https://github.com/lu-joseph/reset"
         details={reset_details}
       />
       <ProjectEntry
         title="Baddie Match"
         imgsrc="./images/baddie-match.png"
-        imgHeight="500px"
         Github=""
         details={baddie_match_details}
       />
       <ProjectEntry
         title="Jewel Theft"
         imgsrc="./images/jewel-theft.png"
-        imgHeight="500px"
         Github="https://github.com/lu-joseph/jewel-theft"
         details={jewel_theft_details}
       />
       <ProjectEntry
         title="Kefuffle Galaxy"
         imgsrc="./images/cellular-automaton.png"
-        imgHeight="500px"
         Github=""
         details={cellular_automaton_details}
       />
       <ProjectEntry
         title="TraffX"
         imgsrc="./images/traffx.png"
-        imgHeight="500px"
         Github="https://github.com/lu-joseph/traffx"
         details={traffx_details}
+      />
+      <ProjectEntry
+        title="NBA 2019 Playoffs Simulation"
+        imgsrc="./images/nba.png"
+        Github="https://github.com/lu-joseph/nba-2019-playoffs-simulation"
+        details={nba_details}
       />
     </div>
   );
