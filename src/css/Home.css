@@ -2,12 +2,14 @@
     /* width: 80%; */
     /* margin: auto; */
     margin: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .home-entry .details {
-    margin: 20px 0;
+    /* margin: 20px 0; */
     font-weight: 500;
+    margin: 0 auto 20px auto;
+
 }
 
 .home-entry .about-page-link {
@@ -18,12 +20,20 @@
     color: var(--colour3);
 }
 
-.home-entry .details-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.home-page-image {
+    float: left;
+    width: 50%;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
-.home-entry .description {
-    margin: 0 20px;
+/* .home-entry .details-container {
+    overflow: auto;
+} */
+
+@media (max-width: 440px) {
+    .home-page-image {
+        width: 100%;
+    }
 }
