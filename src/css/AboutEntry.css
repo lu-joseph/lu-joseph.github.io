@@ -1,0 +1,98 @@
+.about-entry .skills-card .details-container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-entry .details-container > div {
+    margin: 0 10px;
+}
+
+.about-entry .header {
+    font-size: 1.5em;
+    font-weight: 650;
+    margin: 10px 0 0 10px;
+}
+
+.about-entry ul {
+    padding-inline-start: 1em;
+    margin-block-start: 0;
+}
+
+.about-entry {
+    color: var(--colour1);
+}
+
+.about-entry .details-list {
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+
+.about-entry .details-list > li {
+    margin-bottom: 10px;
+}
+
+.about-entry .image-container.longboarding {
+    margin: 0 10px 10px 10px;
+}
+
+.about-entry img {
+    width: 100%;
+}
+
+.about-entry .details {
+    overflow-wrap: break-word;
+}
+
+.about-entry .details-container {
+    margin: 20px;
+}
+
+.col-r-6 {
+    float: right;
+    width: 50%;
+}
+
+@media (max-width: 595px) {
+    .about-entry .details-container {
+        flex-direction: column !important;
+    }
+    .about-entry .title-container {
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 770px) {
+    .about-entry .image-container {
+        width: 90% !important;
+        margin: 10px auto !important;
+        float: none;
+    }
+
+    .about-entry .details{
+        width: 100% !important;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1250px) {
+    .about-entry > .entry-card {
+        width: 80%;
+    }
+
+    .about-entry .badminton .image-container {
+        width: 40%;
+    }
+
+    .about-entry .badminton .details {
+        width: 60%;
+    }
+
+    .about-entry .badminton .details > div {
+        width: 100%;
+    }
+}

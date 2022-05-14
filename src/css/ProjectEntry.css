@@ -107,7 +107,7 @@ body {
     visibility: hidden;
 }
 
-.details {
+.project-entry .details {
     color: var(--colour1);
     font-weight: 700;
     margin-right: 25px;
@@ -117,7 +117,7 @@ body {
     margin-bottom: 20px;
 }
 
-.image-container {
+.project-entry .image-container {
     width: 40%;
     display: flex;
     flex-direction: column;
