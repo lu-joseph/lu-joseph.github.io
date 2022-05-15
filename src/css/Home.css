@@ -28,3 +28,9 @@
         width: 100%;
     }
 }
+
+@media (min-width: 1900px) {
+    .home-page-image {
+        width: 30% !important;
+    }
+}
