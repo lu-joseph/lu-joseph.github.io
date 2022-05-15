@@ -29,7 +29,9 @@ const About = () => {
     },
   ];
   const interests = [
-    { text: "Speedcubing" },
+    {
+      text: "I started Speedcubing back in 3rd grade, and got my personal best down to 15 seconds",
+    },
     {
       text: "Storytelling, especially through animated TV shows and video games",
     },
