@@ -22,6 +22,13 @@ const Projects = () => {
       text: "Webapp uses Python, Flask, and PostgreSQL in backend, and React in the frontend",
     },
   ];
+  const friend_or_foe_details = [
+    { text: "High school relationship simulation game developed in Unity" },
+    { text: "Dialogue managed with Yarn Spinner tool" },
+    {
+      text: "Dialogue choices impact relationships between characters and conversations diverge as a result",
+    },
+  ];
   const cellular_automaton_details = [
     {
       text: "Cellular Automaton simulating spread of humanity made with Processing (Java)",
@@ -56,6 +63,12 @@ const Projects = () => {
         imgsrc="./images/baddie-match.png"
         Github="https://github.com/angelamchen/baddie-match"
         details={baddie_match_details}
+      />
+      <ProjectEntry
+        title="Friend or Foe"
+        imgsrc="./images/friend-or-foe.png"
+        Github="https://github.com/lu-joseph/friend-or-foe"
+        details={friend_or_foe_details}
       />
       <ProjectEntry
         title="Jewel Theft"
