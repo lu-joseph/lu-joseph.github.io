@@ -3,7 +3,7 @@
     margin: 20px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .about-entry .skills-card .header {

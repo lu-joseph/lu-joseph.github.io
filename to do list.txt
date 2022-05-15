@@ -1,4 +1,2 @@
-add kefuffle to github
 avatar png background
-about page
 customize bullet points
