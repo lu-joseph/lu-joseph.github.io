@@ -50,6 +50,17 @@ const Projects = () => {
       text: "Simulations run based on player statistics from 2018-2019 season",
     },
   ];
+  const sumo_bot_details = [
+    {
+      text: "Collaborated with partner to create sumo bot for class competition",
+    },
+    {
+      text: "Process involved digitally designing circuit, etching PCB, soldering components, cutting and painting wood, assembling parts, and coding microchip",
+    },
+    {
+      text: "Planned out schedule and delegated tasks with partner to meet deadlines",
+    },
+  ];
   return (
     <div className="projects-list">
       <ProjectEntry
@@ -65,18 +76,6 @@ const Projects = () => {
         details={baddie_match_details}
       />
       <ProjectEntry
-        title="Friend or Foe"
-        imgsrc="./images/friend-or-foe.png"
-        Github="https://github.com/lu-joseph/friend-or-foe"
-        details={friend_or_foe_details}
-      />
-      <ProjectEntry
-        title="Jewel Theft"
-        imgsrc="./images/jewel-theft.png"
-        Github="https://github.com/lu-joseph/jewel-theft"
-        details={jewel_theft_details}
-      />
-      <ProjectEntry
         title="Kefuffle Galaxy"
         imgsrc="./images/cellular-automaton.png"
         Github="https://github.com/lu-joseph/kefuffle-galaxy"
@@ -87,6 +86,24 @@ const Projects = () => {
         imgsrc="./images/traffx.png"
         Github="https://github.com/lu-joseph/traffx"
         details={traffx_details}
+      />
+      <ProjectEntry
+        title="Sumo Bot"
+        imgsrc="./images/sumo-bot.jpg"
+        Github=""
+        details={sumo_bot_details}
+      />
+      <ProjectEntry
+        title="Friend or Foe"
+        imgsrc="./images/friend-or-foe.png"
+        Github="https://github.com/lu-joseph/friend-or-foe"
+        details={friend_or_foe_details}
+      />
+      <ProjectEntry
+        title="Jewel Theft"
+        imgsrc="./images/jewel-theft.png"
+        Github="https://github.com/lu-joseph/jewel-theft"
+        details={jewel_theft_details}
       />
       <ProjectEntry
         title="NBA 2019 Playoffs Simulation"
