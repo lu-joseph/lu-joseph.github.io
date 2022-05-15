@@ -61,7 +61,11 @@ const About = () => {
               <div className="header">Badminton</div>
               <div className="content row">
                 <div className="image-container col-r-6">
-                  <img src="./images/badminton.jpg" alt="badminton"></img>
+                  <img
+                    className="image"
+                    src="./images/badminton.jpg"
+                    alt="badminton"
+                  ></img>
                 </div>
                 <div className="details col-r-6">
                   <AboutEntry title="Badminton" details={badminton} />
@@ -72,7 +76,11 @@ const About = () => {
               <div className="header">Snowboarding & Longboarding</div>
               <div className="content row">
                 <div className="image-container col-4">
-                  <img src="./images/snowboarding.jpg" alt="snowboarding"></img>
+                  <img
+                    className="image"
+                    src="./images/snowboarding.jpg"
+                    alt="snowboarding"
+                  ></img>
                 </div>
                 <div className="details col-8">
                   <AboutEntry
@@ -82,7 +90,11 @@ const About = () => {
                 </div>
               </div>
               <div className="image-container longboarding">
-                <img src="./images/longboarding.jpg" alt="lonboarding"></img>
+                <img
+                  className="image"
+                  src="./images/longboarding.jpg"
+                  alt="lonboarding"
+                ></img>
               </div>
             </div>
           </div>

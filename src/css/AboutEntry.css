@@ -7,7 +7,7 @@
 }
 
 .about-entry .details-container > div {
-    margin: 0 10px;
+    /* margin: 0 10px; */
 }
 
 .about-entry .header {
@@ -49,11 +49,6 @@
 
 .about-entry .details-container {
     margin: 20px;
-}
-
-.col-r-6 {
-    float: right;
-    width: 50%;
 }
 
 @media (max-width: 595px) {

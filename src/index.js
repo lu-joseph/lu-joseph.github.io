@@ -7,6 +7,8 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import NoPage from "./pages/NoPage";
+import "./css/CardEntry.css";
+import "./css/GeneralFormatting.css";
 
 export default function App() {
   return (
