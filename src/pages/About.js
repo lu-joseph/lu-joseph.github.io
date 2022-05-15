@@ -33,7 +33,7 @@ const About = () => {
       text: "I started Speedcubing back in 3rd grade, and got my personal best down to 15 seconds",
     },
     {
-      text: "Storytelling, especially through animated TV shows and video games",
+      text: "Storytelling, especially through animated TV shows, video games, and comics",
     },
   ];
   return (

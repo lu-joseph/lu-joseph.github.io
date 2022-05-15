@@ -9,7 +9,9 @@ const ProjectEntry = (props) => {
       <div className="entry-card">
         <div className="title-container row">
           <div className="col-3"></div>
-          <div className="title col-6">{props.title}</div>
+          <a className="col-6" href={props.Github}>
+            <div className="title">{props.title}</div>
+          </a>
           <div className="icon-container col-3 remove-padding">
             <a href={props.Github}>
               <i className={githubIconClass}></i>

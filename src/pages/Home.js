@@ -9,7 +9,7 @@ const Home = () => {
         </div>
         <div className="details-container">
           <img
-            className="home-page-image"
+            className="home-page-image image"
             src="./images/home-me-2.jpg"
             alt=""
           ></img>

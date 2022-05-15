@@ -33,3 +33,11 @@
 .project-entry .image {
     margin: 20px;
 }
+
+.project-entry a {
+    text-decoration: none;
+}
+
+.project-entry a > div.title:hover {
+    color: var(--colour2);
+}

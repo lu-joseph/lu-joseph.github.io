@@ -54,7 +54,7 @@ const Projects = () => {
       <ProjectEntry
         title="Baddie Match"
         imgsrc="./images/baddie-match.png"
-        Github=""
+        Github="https://github.com/angelamchen/baddie-match"
         details={baddie_match_details}
       />
       <ProjectEntry
@@ -66,7 +66,7 @@ const Projects = () => {
       <ProjectEntry
         title="Kefuffle Galaxy"
         imgsrc="./images/cellular-automaton.png"
-        Github=""
+        Github="https://github.com/lu-joseph/kefuffle-galaxy"
         details={cellular_automaton_details}
       />
       <ProjectEntry
