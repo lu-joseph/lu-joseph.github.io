@@ -9,6 +9,7 @@ const About = () => {
     { text: "PostgreSQL, SQL" },
   ];
   const otherSkills = [
+    { text: "RESTful APIs" },
     { text: "Agile development" },
     { text: "Git" },
     { text: "Jira/Atlassian" },
