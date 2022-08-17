@@ -20,7 +20,8 @@ const ProjectEntry = (props) => {
         </div>
 
         <div className="entry-container row">
-          <div className="image-container col-4">
+          <div className="empty col-1"></div>
+          <div className="image-container col-3">
             <img className="image" src={props.imgsrc} alt="Project"></img>
           </div>
           <div className="text-container col-8">
