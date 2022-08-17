@@ -7,6 +7,7 @@ const ExperienceEntry = (props) => {
         <div className="title-container">
           <div className="company-name title">{props.company}</div>
           <div className="job-role">{props.role}</div>
+          <div className="job-dates">{props.dates}</div>
         </div>
         <div className="details-container">
           <div className="details">

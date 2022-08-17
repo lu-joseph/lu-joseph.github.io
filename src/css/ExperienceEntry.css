@@ -12,8 +12,12 @@
 }
 
 .job-role {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     font-weight: 600;
+}
+
+.job-dates {
+    margin: 10px auto;
 }
 
 .title-container {
@@ -25,7 +29,7 @@
 }
 
 @media (max-width: 400px) {
-    .experience-entry > .details-container {
+    .experience-entry>.details-container {
         width: 80%;
     }
 }

@@ -10,7 +10,7 @@ const Home = () => {
         <div className="details-container">
           <img
             className="home-page-image image"
-            src="./images/home-me-2.jpg"
+            src="./images/home-me-3.jpg"
             alt=""
           ></img>
           <div className="details">
@@ -18,8 +18,7 @@ const Home = () => {
             University of Waterloo.
           </div>
           <div className="details">
-            I'm currently looking for Fall 2022 internships in Software
-            Development.
+            For Fall 2022, I will be interning for the Ontario Ministry of the Attorney General.
           </div>
           <div className="details">
             I specialize in <b>Backend</b> work, but I am developing my{" "}
