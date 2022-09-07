@@ -10,7 +10,7 @@ const Experience = () => {
       text: "Learned to use custom Selenium based framework for testing application",
     },
     { text: "Wrote code-based tests in groovy" },
-    { text: "Created new reusable test steps for framework" },
+    { text: "Created new reusable test steps for framework involving REST API calls" },
   ];
 
   const doxim_details = [
