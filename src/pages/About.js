@@ -1,4 +1,4 @@
-import AboutEntry from "../components/AboutEntry";
+import AboutEntry from "../Components/AboutEntry";
 
 const About = () => {
   const languages = [

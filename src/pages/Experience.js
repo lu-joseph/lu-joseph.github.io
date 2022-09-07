@@ -1,4 +1,4 @@
-import ExperienceEntry from "../components/ExperienceEntry";
+import ExperienceEntry from "../Components/ExperienceEntry";
 
 const Experience = () => {
   const opgt_details = [
