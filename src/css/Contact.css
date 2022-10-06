@@ -17,8 +17,7 @@
 }
 
 .contact-entry .icons a {
-    /* text-decoration: none; */
-    color: var(--colour1);
+    color: var(--colour4);
 }
 
 .contact-entry .icons a:hover {

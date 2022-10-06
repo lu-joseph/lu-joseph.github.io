@@ -10,11 +10,12 @@
 }
 
 .home-entry .about-page-link {
-    color: var(--colour1);
+    color: var(--colour3);
+    text-decoration: none;
 }
 
 .home-entry .about-page-link:hover {
-    color: var(--colour3);
+    color: var(--colour5);
 }
 
 .home-page-image {

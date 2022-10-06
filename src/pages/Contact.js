@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="details-container">
           <div className="details">
             <div className="description first-paragraph">
-              I'm currently looking for Winter 2023 internships in Software
+              I'm currently looking for Summer 2023 internships in Software
               Development.
             </div>
             <div className="description">

@@ -21,17 +21,18 @@
     margin-block-start: 0;
 }
 
-.about-entry {
+/* .about-entry {
     color: var(--colour1);
-}
+} */
 
 .about-entry .details-list {
     font-weight: 500;
     font-size: 1.3em;
     margin-bottom: 0;
+    opacity: 60%;
 }
 
-.about-entry .details-list > li {
+.about-entry .details-list>li {
     margin-bottom: 10px;
 }
 
@@ -55,10 +56,11 @@
     .about-entry .details-container {
         flex-direction: column !important;
     }
+
     .about-entry .title-container {
         width: 90%;
     }
-    
+
 }
 
 @media (max-width: 770px) {
@@ -68,14 +70,14 @@
         float: none;
     }
 
-    .about-entry .details{
+    .about-entry .details {
         width: 100% !important;
         margin-top: 0;
     }
 }
 
 @media (max-width: 1250px) {
-    .about-entry > .entry-card {
+    .about-entry>.entry-card {
         width: 80%;
     }
 
@@ -87,7 +89,7 @@
         width: 60%;
     }
 
-    .about-entry .badminton .details > div {
+    .about-entry .badminton .details>div {
         width: 100%;
     }
 }

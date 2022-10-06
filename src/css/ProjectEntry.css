@@ -10,7 +10,7 @@
 }
 
 .title-container .fa-github:hover {
-    color: var(--colour2);
+    color: var(--colour5);
 }
 
 .title-container .fa-github.invisible {
@@ -18,7 +18,7 @@
 }
 
 .project-entry .details {
-    color: var(--colour1);
+    /* color: var(--colour1); */
     font-weight: 700;
     margin-right: 25px;
 }
@@ -35,5 +35,5 @@
 }
 
 .project-entry a>div.title:hover {
-    color: var(--colour2);
+    color: var(--colour5);
 }

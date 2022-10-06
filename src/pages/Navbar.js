@@ -3,7 +3,7 @@ import "../css/Navbar.css";
 
 const Navbar = () => {
   const activeNavLinkStyle = ({ isActive }) => ({
-    color: isActive ? "var(--colour3)" : "var(--colour1)",
+    color: isActive ? "var(--colour3)" : "var(--colour4)",
   });
   return (
     <>

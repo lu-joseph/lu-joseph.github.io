@@ -1,15 +1,16 @@
 :root {
-    --colour1: #FFEBD4;
-    --colour2: #FFA500;
+    --colour1: #272838;
+    --colour2: #303145;
     --colour3: #039AF8;
-    --colour4: #FFB97B;
-    --colour5: #ffd485;
+    --colour4: #CDCEE7;
+    --colour5: #FF944C;
 }
 
 body {
     width: 100%;
     margin: 0;
     padding: 0;
+    color: var(--colour4);
 }
 
 * {

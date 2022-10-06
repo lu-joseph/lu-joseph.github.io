@@ -14,13 +14,14 @@ body {
 .title {
     font-size: 30px;
     font-weight: 800;
-    color: var(--colour3);
+    margin-top: 0.5em;
+    opacity: 87%;
+    color: var(--colour4);
 }
 
 .title-container {
     width: 70%;
     margin: 0.7em auto 0 auto;
-    background-color: var(--colour5);
     border-radius: 5px;
     text-align: center;
 }
@@ -33,7 +34,8 @@ body {
 }
 
 .details {
-    color: var(--colour1);
+    /* color: var(--colour4); */
+    opacity: 60%;
 }
 
 .details>li {
@@ -47,8 +49,6 @@ body {
 
 .entry-card {
     background-color: var(--colour2);
-    box-shadow: 0 4px 8px 0 rgba(70, 124, 177, 0.25),
-        0 6px 20px 0 rgba(70, 124, 177, 0.25);
     width: 50%;
     margin: 2em auto;
     border-radius: 5px;

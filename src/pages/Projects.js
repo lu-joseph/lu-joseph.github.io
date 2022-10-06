@@ -2,11 +2,14 @@ import ProjectEntry from "../Components/ProjectEntry";
 import "../css/Projects.css";
 
 const Projects = () => {
+  const new_project_title_details = [
+    { text: "Hack the North 2022 team project" },
+    { text: "Project idea generator webapp created using co:here's text generation AI" },
+    { text: "AI fine-tuned with hackathon project examples scraped from DevPost" },
+  ];
   const reset_details = [
     { text: "Health app created for StormHacks 2022" },
-    {
-      text: "Worked in a team of three members to complete project in 36 hours",
-    },
+    { text: "Worked in a team of three members to complete project in 36 hours" },
     { text: "Wrote backend in Python, using Flask and PostgreSQL" },
   ];
   const jewel_theft_details = [
@@ -26,7 +29,7 @@ const Projects = () => {
     { text: "High school relationship simulation game developed in Unity" },
     { text: "Dialogue managed with Yarn Spinner tool" },
     {
-      text: "Dialogue choices impact relationships between characters and conversations diverge as a result",
+      text: "Dialogue choices impact relationships between characters and conversations diverge as a result"
     },
   ];
   const cellular_automaton_details = [
@@ -63,6 +66,12 @@ const Projects = () => {
   ];
   return (
     <div className="projects-list">
+      <ProjectEntry
+        title="New Project Title"
+        imgsrc="./images/new-project-title.png"
+        Github="https://github.com/lu-joseph/new-project-title"
+        details={new_project_title_details}
+      />
       <ProjectEntry
         title="Reset"
         imgsrc="./images/reset.png"
