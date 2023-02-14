@@ -9,7 +9,7 @@ const ExperienceEntry = (props) => {
           <div className="job-role">{props.role}</div>
           <div className="job-dates">{props.dates}</div>
         </div>
-        <div className="details-container">
+        <div className="entry-container">
           <div className="details">
             {props.details.map((item) => (
               <li>{item.text}</li>

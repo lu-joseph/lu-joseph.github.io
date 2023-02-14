@@ -18,11 +18,7 @@ const Home = () => {
             University of Waterloo.
           </div>
           <div className="details">
-            For Fall 2022, I will be interning for the Ontario Ministry of the Attorney General.
-          </div>
-          <div className="details">
-            I specialize in <b>Backend</b> work, but I am developing my{" "}
-            <b>Fullstack</b> and <b>Frontend</b> skills as well.
+            I specialize in <b>Backend</b> work, and recently I've picked up an interest in Computer Vision!
           </div>
           <div className="details">
             Check the{" "}

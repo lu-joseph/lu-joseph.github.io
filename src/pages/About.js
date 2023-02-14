@@ -6,7 +6,7 @@ const About = () => {
     { text: "C++, C, C#" },
     { text: "Java, Groovy, Processing" },
     { text: "HTML, CSS, JavaScript, React" },
-    { text: "PostgreSQL, SQL" },
+    { text: "PL/SQL, PostgreSQL, SQL" },
   ];
   const otherSkills = [
     { text: "RESTful APIs" },
@@ -25,7 +25,7 @@ const About = () => {
     { text: "2018 U17 boys singles national champion" },
   ];
   const boarding = [
-    { text: "Last fall, I started longboarding as a way to get around" },
+    { text: "Last fall, I started longboarding as a way to get around campus" },
     {
       text: "I enjoyed it a lot, and when winter came around I started snowboarding too!",
     },

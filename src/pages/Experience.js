@@ -2,19 +2,24 @@ import ExperienceEntry from "../Components/ExperienceEntry";
 
 const Experience = () => {
   const opgt_details = [
-
+    {
+      text: "Developed script to sync Oracle database with Team Foundation Server (TFS) using PL/SQL procedures and C# scripts in .NET framework",
+    },
+    {
+      text: "Designed and edited SQL Server Reporting Services (SSRS) reports, fulfilling data requests of the analysts in the office",
+    },
+    {
+      text: "Coded package procedures in PL/SQL to use in SSRS reports",
+    }
   ];
 
   const opentext_details = [
-    {
-      text: "Learned to use custom Selenium based framework for testing application",
-    },
-    { text: "Wrote code-based tests in groovy" },
-    { text: "Created new reusable test steps for framework involving REST API calls" },
+    { text: "Programmed reusable test steps involving REST API calls written in Groovy for Selenium-based testing framework", },
+    { text: "Optimized framework according to clean code principles by giving feedback in a written report" },
   ];
 
   const doxim_details = [
-    { text: "Created Apache JMeter testing framework" },
+    { text: "Set up JMeter test automation framework to incorporate modular test steps and suites" },
     { text: "Implemented test cases in JMeter to test software product" },
     { text: "Learned to use Git source control, Jira, and SQL" },
   ];
@@ -24,7 +29,7 @@ const Experience = () => {
         company="Ontario Ministry of the Attorney General"
         role="System Support Officer - Programmer"
         details={opgt_details}
-        dates="(Upcoming) September-December 2022"
+        dates="September-December 2022"
       />
       <ExperienceEntry
         company="OpenText"
