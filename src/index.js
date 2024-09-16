@@ -116,7 +116,7 @@ export default function App() {
           <ExperienceEntry
             company="Cambly"
             role="Software Engineering Intern"
-            dates="May 2024 - Present"
+            dates="May-August 2024"
             location="San Francisco, CA"
             description={
               <>
@@ -126,9 +126,10 @@ export default function App() {
                 </div>
                 <ul>
                   <li>Formulating technical implementation plans,</li>
-                  <li>Delivering product demonstrations,</li>
-                  <li>Integrating testing, and</li>
                   <li>Undergoing thorough code reviews</li>
+                  <li>Delivering product demonstrations</li>
+                  <li>Integrating testing, and</li>
+                  <li>User metrics</li>
                 </ul>
               </>
             }
