@@ -35,7 +35,14 @@ function ExperienceEntry(props) {
               <div className="location">{props.location}</div>
             </div>
             <div className="col-md-9 col-xs-12 col-sm-12">
-              {props.description}
+              <div style={{ "font-weight": "800" }}>
+                Technologies
+              </div>
+              {props.technologies}
+              <div style={{ "font-weight": "800" }}>
+                Responsibilities
+              </div>
+              {props.responsbilities}
             </div>
           </div>
         </div>
@@ -118,20 +125,43 @@ export default function App() {
             role="Software Engineering Intern"
             dates="May-August 2024"
             location="San Francisco, CA"
-            description={
-              <>
-                <div>
-                  Led projects from concept to launch, following software
-                  development guidelines including:
-                </div>
-                <ul>
-                  <li>Formulating technical implementation plans,</li>
-                  <li>Undergoing thorough code reviews</li>
-                  <li>Delivering product demonstrations</li>
-                  <li>Integrating testing, and</li>
-                  <li>User metrics</li>
-                </ul>
-              </>
+            technologies={
+              <ul>
+                <li>
+                  Backend
+                  <ul>
+                    <li>Python, Flask</li>
+                    <li>MongoDB</li>
+                    <li>Algolia</li>
+                  </ul>
+                </li>
+                <li>
+                  Frontend
+                  <ul>
+                    <li>React, Typescript</li>
+                    <li>Redux</li>
+                    <li>Node, Express</li>
+                  </ul>
+                </li>
+                <li>
+                  Misc
+                  <ul>
+                    <li>Docker</li>
+                    <li>CircleCI, PyTest</li>
+                    <li>Metabase, Posthog (user metrics)</li>
+                  </ul>
+                </li>
+              </ul>
+            }
+            responsbilities={
+              <ul>
+                <li>Delivered end-to-end features for a tutoring platform, driving a 12% increase in customer reservations</li>
+                <li>Developed a new backend class hierarchy for data sync with Algolia, integrated with a smart search bar built in React and Typescript that improved curriculum search times for tutors by 74%
+                </li>
+                <li>Implemented first-lesson detection with customized icebreakers tied to learning goals, redesigning the lesson startup flow to improve new student engagement by 28%</li>
+                <li>Integrated PyTest with coverage tracking into the CI pipeline in CircleCI, automating feature test validations</li>
+                <li>Created A/B testing workflows in the Flask backend with SQL-based data retrieval in Metabase and PostHog, enhancing insights into user engagement and driving feature improvements</li>
+              </ul>
             }
           ></ExperienceEntry>
           <Line></Line>
@@ -140,22 +170,36 @@ export default function App() {
             role="Fullstack Developer Intern"
             dates="May-August 2023"
             location="Waterloo, ON"
-            description={
-              <>
-                <div style={{ "font-weight": "800" }}>
-                  Backend responsibilities
-                </div>
-                Deployed dockerized applications with multiple microservices to
-                Azure, providing stores with requested data. Debugged
-                microservices to remove inaccurate inventory data from API
-                calls.
-                <div style={{ "font-weight": "800", "margin-top": "10px" }}>
-                  Frontend responsibilities
-                </div>
-                Created RFID scanning prototype using Bootstrap, React, and
-                Redux, with backend database integration.
-              </>
-            }
+            technologies={<ul>
+              <li>
+                Backend
+                <ul>
+                  <li>Python, Flask</li>
+                  <li>PostgreSQL</li>
+                </ul>
+              </li>
+              <li>
+                Frontend
+                <ul>
+                  <li>React, Typescript</li>
+                  <li>Redux</li>
+                  <li>Node, Express</li>
+                </ul>
+              </li>
+              <li>
+                Misc
+                <ul>
+                  <li>Docker</li>
+                  <li>Azure, Kubernetes</li>
+                </ul>
+              </li>
+            </ul>}
+            responsbilities={<ul>
+              <li>Developed an RFID-based tracking solution for end-to-end inventory verification, enabling LCBO to trace unauthorized goods in the market and achieve targeted savings of $1.2M annually</li>
+              <li>Built the web app with React, Typescript, and Redux in collaboration with the designer’s Figma mockups</li>
+              <li>Configured CI/CD pipelines to automate Dockerized app deployment using Azure Kubernetes Service</li>
+              <li>Developed a reusable template that contains React, Express, and PostgreSQL configurations, reducing initial development times of new applications by ~70%</li>
+            </ul>}
           ></ExperienceEntry>
           <Line></Line>
           <ExperienceEntry
@@ -163,24 +207,20 @@ export default function App() {
             role="Software Developer Intern"
             dates="September-December 2022"
             location="Toronto, ON"
-            description={
-              <ul>
-                <li>
-                  Developed C# script using PL/SQL procedures to sync Oracle
-                  database with Team Foundation Server (TFS), preventing
-                  critical errors for other developers caused by mismatching
-                  versions of the database.
-                </li>
-                <li>
-                  Coded package procedures in PL/SQL to use in SSRS reports,
-                  aiding the development of future reports
-                </li>
-                <li>
-                  Designed SQL Server Reporting Services (SSRS) reports,
-                  increasing work efficiency of analysts{" "}
-                </li>
-              </ul>
-            }
+            technologies={<ul>
+              <li>C# .NET</li>
+              <li>PL/SQL</li>
+              <li>Oracle DB</li>
+              <li>Azure DevOps server (TFS)</li>
+            </ul>}
+            responsbilities={<ul>
+              <li>
+                Developed C# script to sync Oracle database with the version stored in Azure DevOps Server, preventing critical errors for other developers caused by mismatching database versions
+              </li>
+              <li>
+                Created new procedures in PL/SQL to generate SQL Server Reporting Services (SSRS) reports, increasing the work efficiency of analysts by 85%
+              </li>
+            </ul>}
           ></ExperienceEntry>
           <Line></Line>
           <ExperienceEntry
@@ -188,18 +228,21 @@ export default function App() {
             role="Software Automation Intern"
             dates="January-April 2022"
             location="Waterloo, ON"
-            description={
+            technologies={<>
               <ul>
-                <li>
-                  Programmed reusable REST API test steps written in Groovy for
-                  Selenium framework
-                </li>
-                <li>
-                  Optimized framework according to clean code principles by
-                  giving feedback in a written report
-                </li>
+                <li>Groovy</li>
+                <li>Selenium</li>
               </ul>
-            }
+            </>}
+            responsbilities={<ul>
+              <li>
+                Increased test coverage by 25% by developing reusable REST API test steps in Groovy for a Selenium framework, decreasing the setup time of future test scripts by ~50%
+              </li>
+              <li>
+                Optimized framework according to clean code principles by
+                giving feedback in a written report
+              </li>
+            </ul>}
           ></ExperienceEntry>
           <Line></Line>
           <ExperienceEntry
@@ -207,24 +250,21 @@ export default function App() {
             role="QA Anaylst"
             dates="May-August 2021"
             location="Markham, ON"
-            description={
+            technologies={<ul>
+              <li>JMeter</li>
+              <li>Jira</li>
+            </ul>}
+            responsbilities={
               <ul>
-                <li>
-                  Set up JMeter test automation framework to incorporate modular
-                  test steps and suites
-                </li>
-                <li>
-                  Implemented test cases in JMeter to test software product
-                </li>
+                <li>Developed a modular JMeter test automation framework and streamlined the migration of 100+ tests</li>
                 <li>
                   Learned to use Git source control, Jira, and Agile methodology
                 </li>
-              </ul>
-            }
+              </ul>}
           ></ExperienceEntry>
           <Line></Line>
         </div>
-      </div>
+      </div >
       <div id="contact" className="contact-container">
         <div className="container">
           <div className="page-title">Contact Me</div>
