@@ -70,7 +70,7 @@ export default function App() {
             <div className="col home-page-text">
               <div className="title">Software Developer</div>
               <div className="description">
-                I'm a versatile Software Developer that works on both Front and
+                I'm a versatile Software Developer that works on both Front- and
                 Back-end Systems
               </div>
               <div className="phone-number">+1 (628) 303 4235</div>
